@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mobileapi.AutenticarTokenMobile" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-15T21:42:26" hostname="NI-80407-5E" time="2.464">
+  <properties/>
+  <testcase name="AutenticarTokenMobile" classname="mobileapi.AutenticarTokenMobile" time="2.464"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://apimddev.edtech.com.br/api/alf/v1/oauth2/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	client_id=previ
+				client_secret=adf2c533a2f7d6892efece3c4c99f39a
+				grant_type=password
+				username=administrador
+				password=123456
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 15 Oct 2021 21:42:28 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Cache-Control: no-cache
+vary: Origin
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 150
+X-Kong-Proxy-Latency: 1
+Via: kong/2.2.0
+
+{
+    "refresh_token": "UYfCWfdvaAOFFA1UujgL1wWQYtzWUn4l",
+    "token_type": "bearer",
+    "access_token": "J0oCllPcKJS6oOuEW7NXQHnKV6PtmMrh",
+    "expires_in": 7200,
+    "user_id": 1
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

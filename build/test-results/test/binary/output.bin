@@ -1,0 +1,36 @@
+Request method:	POST
+ERequest URI:	https://apimddev.edtech.com.br/api/alf/v1/oauth2/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	client_id=previ
+4				client_secret=adf2c533a2f7d6892efece3c4c99f39a
+				grant_type=password
+				username=administrador
+				password=123456
+Path params:	<none>
+Headers:		Accept=*/*
+H				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+%Date: Fri, 15 Oct 2021 21:42:28 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+Cache-Control: no-cache
+vary: Origin
+ Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 150
+X-Kong-Proxy-Latency: 1
+Via: kong/2.2.0
+
+{
+9    "refresh_token": "UYfCWfdvaAOFFA1UujgL1wWQYtzWUn4l",
+    "token_type": "bearer",
+8    "access_token": "J0oCllPcKJS6oOuEW7NXQHnKV6PtmMrh",
+    "expires_in": 7200,
+    "user_id": 1
+}
